@@ -5,7 +5,8 @@ console.log("==== Function with no argument and no return value =====");
 function Hello( ){
 console.log("Hello ! Have a great day !");
 }
-Hello( )
+Hello( );
+
 function Brother( ){
     console.log("Happy Brother's Day !");
     }
@@ -30,15 +31,12 @@ College("Fabtech College,Sangola");
 
 // Addition of three values
 console.log("===== Addition Function =====");
-function additionOfNum(num){
-console.log("Addition of three number is : ", num);
-var result = num + num + num;
+function additionOfNum(str,str1,str2){
+var result = str + str1 + str2 ;
+console.log("Addition of three number is : ", result);
 return result;
 }
-function additionOfNum(num){
-    console.log("Addition of three number is : ", num);
-    var result = num + num + num;
-    return result;
-    }
-additionOfNum(650.23);
-additionOfNum("Hello Good Morning");
+additionOfNum(600,40,10.35);
+additionOfNum("Hello", "Good", "Morning");
+
+

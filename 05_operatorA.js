@@ -1,8 +1,7 @@
 
 console.log("========== Task 1 ============");
- function length(string){
-    console.log(`The length of : , ${string}`);
-    var result = string * string ;
+ function lengthOfStr(string){
+    let lengthOfStr = string.length;
+    console.log(`The length of string "${string}" is :  ${lengthOfStr}`);
 }
-var length = "JavaScript";
-console.log(`The length of :  ${string} is : `);
+lengthOfStr("JavaScript");

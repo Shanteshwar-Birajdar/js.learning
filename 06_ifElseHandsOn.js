@@ -54,4 +54,3 @@ if (str.startsWith("Java")) {
 }
 string("JavaScript Language");
 string("Programming Language");
-

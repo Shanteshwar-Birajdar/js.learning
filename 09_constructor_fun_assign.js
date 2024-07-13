@@ -22,7 +22,6 @@ console.log(`Axis Bank Details : ${axisBank.bankName}, ${axisBank.location}, ${a
 Bank.prototype.openTime = "9 AM IST";
 Bank.prototype.closeTime = "6 PM IST";
 console.log("===============================================================================");
-
 console.log(`SBI Bank open time : ${sbiBank.openTime} and It's close time : ${sbiBank.closeTime}`);
 console.log("===============================================================================");
 console.log(`Bank Name is : ${axisBank.bankName} and It's close time : ${axisBank.closeTime}`);
